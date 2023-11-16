@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const bcrypt = require('bcrypt')
 
+// in this appp, users will be empty everytime we refresh the app
 const users = []
 
 app.set('view-engine', 'ejs')
